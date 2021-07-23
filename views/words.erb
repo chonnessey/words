@@ -1,0 +1,13 @@
+<h1>Words and Definitions!</h1>
+
+<h3>Below are a list of words you can click on and see the definitons for them!</h3>
+
+<% if @words.any? %>
+  <ul>
+      <% @words.each do |word| %>
+    <li><a href="/words/<%= word.id %>"><%= word.word %></a></li>
+  <% end %>
+  </ul>
+<% else %>
+  <p>There are no words up yet!</p>
+<% end %>
