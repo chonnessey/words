@@ -26,4 +26,16 @@ class Word
     @@total_rows = 0
   end
 
+  def self.find(id)
+    @@words[id]
+  end
+
+  def update(word)
+    @word= word
+  end
+
+  def delete
+    @@word.delete(self.id)
+  end
+
 end
