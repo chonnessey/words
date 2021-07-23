@@ -64,14 +64,14 @@ describe('#Word' ) do
     end
   end
 
-  # describe('#delete') do
-  #   it("deletes an album by id") do
-  #     album = Album.new("Giant Steps", "The Black Keys", "Rock", "2019", nil)
-  #     album.save()
-  #     album2 = Album.new("Blue", "The berries", "Rap", "2020", nil)
-  #     album2.save()
-  #     album.delete()
-  #     expect(Album.all).to(eq([album2]))
-  #   end
-  # end
+  describe('#delete') do
+    it("deletes a word by id") do
+      word = Word.new("Hello", nil)
+      word.save()
+      word2 = Word.new("Hola", nil)
+      word2.save()
+      word.delete()
+      expect(Word.all).to(eq([word2]))
+    end
+  end
 end

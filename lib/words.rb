@@ -35,7 +35,7 @@ class Word
   end
 
   def delete
-    @@word.delete(self.id)
+    @@words.delete(self.id)
   end
 
 end
