@@ -6,7 +6,7 @@ require('./lib/words')
 require('pry')
 also_reload('lib/**/*.rb')
 
-get('/test') do
-  @something = "this is a variable"
-  erb(:whatever)
+get('/') do 
+  @words = Word.all
+  erb(:words)
 end
