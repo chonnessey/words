@@ -39,4 +39,12 @@ describe '#Definitions' do
       expect(Definition.all).to(eq([]))
     end
   end
+
+  describe('#save') do
+    it("saves a definitino") do
+      definition = Definition.new("To lose", @word.id, nil)
+      definition.save
+      expect(Definition.all).to(eq([definition]))
+    end
+  end
 end
