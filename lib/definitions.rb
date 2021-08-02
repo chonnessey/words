@@ -34,7 +34,7 @@ class Definition
   end
 
   def delete
-    @@defintions.delete(self.id)
+    @@definitions.delete(self.id)
   end
 
   def self.clear

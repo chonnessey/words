@@ -66,4 +66,15 @@ describe '#Definitions' do
       expect(definition.definition).to(eq("To tie"))
     end
   end
+
+  describe('#delete') do
+    it("deletes an song by id") do
+      definition = Definition.new("To lose", @word.id, nil)
+      definition.save
+      definition2 = Definition.new("To win", @word.id, nil)
+      definition2.save
+      definition.delete()
+      expect(Definition.all).to(eq([definition2]))
+    end
+  end
 end
