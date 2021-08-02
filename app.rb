@@ -2,6 +2,7 @@
 require('sinatra')
 require('sinatra/reloader')
 require('./lib/words')
+require('./lib/definitions')
 require('pry')
 also_reload('lib/**/*.rb')
 
@@ -25,4 +26,9 @@ end
 
 get('/words/new') do
   erb(:new_word)
+end
+
+get ('/words/:id') do
+  @word = Word.find(params[:id].to_i())
+  erb(:word)
 end
