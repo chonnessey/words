@@ -2,10 +2,14 @@
 ## By Adrian Camacho :electric_plug:
 
 ---
+### Heroku Link 
+* Here is a link to my 
 
 ### Project Description :pencil:
 
-* This project is a web application that allows the user to input a word and the definition for it. 
+* This project is a web application that allows the user to input a word and the definition(s) for it. 
+
+* It also allows the user to update and delete both, words and definitions.
 ---
 ### Tech Stack :floppy_disk:
 1. _Ruby 2.6.3_
@@ -24,12 +28,12 @@
 5. Fill out the forms below and have fun!
 ---
 ### Known Bugs :bug:
-1. WIP (work in progress).
+1. No Known Bugs.
 2. Please open a pull request if you have any issues!
 ---
 ### Test Suite/Specification :chart_with_upwards_trend:
 
-> See [anagram_spec.rb](https://github.com/chonnessey/words/tree/main/spec) for rspec test suite which includes 5 passing tests. View test results from project directory by running `rspec`.
+> See [spec folder](https://github.com/chonnessey/words/tree/main/spec) for rspec test suite which includes 23 passing tests. View test results from project directory by running `rspec`.
 ---
 ### Contact Info :inbox_tray:
 
