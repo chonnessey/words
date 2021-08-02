@@ -1,9 +1,9 @@
-# Words and definitions
+# Words and definitions :school_satchel:
 ## By Adrian Camacho :electric_plug:
 
 ---
-### Heroku Link 
-* Here is a link to my 
+### Heroku Link :train2:
+* Here is a link to my [Words](https://dry-fjord-73509.herokuapp.com/) app via heroku!
 
 ### Project Description :pencil:
 
