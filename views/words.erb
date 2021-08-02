@@ -12,4 +12,14 @@
   <p>There are no words up yet!</p>
 <% end %>
 
-<a href="/words/new">Add a new Word!</a>
+<h1>Add a new Word to the list!</h1>
+
+<form action="/words" method="post">
+  <div class="form-group">
+    <label for="new_word">Input a word!</label>
+    <input id="new_word" name="new_word" class="form-control" type="text">
+  </div>
+  <button id="add" type="submit" class="btn-lg btn-success">Lets add the word!</button>
+</form>
+
+<%# <a href="/words/new">Add a new Word!</a> %>
